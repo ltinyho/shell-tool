@@ -27,7 +27,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # NDK
-export ANDROID_NDK=$HOME/Android/Ndk
+export ANDROID_NDK=$HOME//Library/Android/Ndk
 export PATH=$PATH:$ANDROID_NDK
 
 # Android
