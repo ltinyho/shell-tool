@@ -21,6 +21,8 @@ alias avd=$ANDROID_HOME"/tools/emulator -avd"
 alias rn="react-native"
 alias cpd="cap production deploy"
 alias nbd="npm run build:prod"
+alias k=kubectl
+complete -F __start_kubectl k
 # ENV
 # Golang
 export PATH=$PATH:/usr/local/go/bin
