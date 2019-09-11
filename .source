@@ -21,11 +21,13 @@ alias avd=$ANDROID_HOME"/tools/emulator -avd"
 alias rn="react-native"
 alias cpd="cap production deploy"
 alias nbd="npm run build:prod"
+alias k=kubectl
 # ENV
 # Golang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export GOPROXY=https://goproxy.cn
 
 # NDK
 export ANDROID_NDK=$HOME//Library/Android/Ndk
